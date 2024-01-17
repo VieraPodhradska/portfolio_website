@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
 @layer base {
   body {
     @apply font-body text-paragraph leading-6 bg-gray-200;
@@ -41,4 +43,19 @@
   .active {
     @apply text-accent;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: theme('colors.tertiary');
+}
+
+#button:focus {
+  outline: 0px;
+  outline-offset: 0px;
+  border-width: 1px;
+  border-color: theme('colors.primary');
 }

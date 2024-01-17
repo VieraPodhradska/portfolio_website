@@ -1,9 +1,11 @@
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Playfair Display',
-      body: 'Work Sans',
+      primary: 'Arimo',
+      body: 'Helvetica',
     },
     container: {
       padding: {
@@ -19,23 +21,44 @@ module.exports = {
     },
     extend: {
       content: {
-        about: 'url("/src/assets/img/outline-text/about.svg")',
-        portfolio: 'url("/src/assets/img/outline-text/portfolio.svg")',
-        services: 'url("/src/assets/img/outline-text/services.svg")',
-        testimonials: 'url("/src/assets/img/outline-text/testimonials.svg")',
-        contact: 'url("/src/assets/img/outline-text/contact.svg")',
+        o_mne: 'url("/src/assets/img/outline-text/o_mne.svg")',
+        sluzby: 'url("/src/assets/img/outline-text/sluzby.svg")',
+        kontakt: 'url("/src/assets/img/outline-text/kontakt.svg")',
+        ribbonWLogo: 'url("/src/assets/img/outline-text/w_inhouse_red_transparant_logo_yellow.png")',
+        uspechy: 'url("/src/assets/img/outline-text/uspechy.svg")',
       },
       colors: {
-        primary: '#050402',
-        secondary: '#1C1D24',
-        tertiary: '#131419',
+        primary: '#FFFFFF',
+        secondary: '#FFFFFF',
+        tertiary: '#ef4348',
+        quaternary: '#000000',
         accent: {
-          DEFAULT: '#ac6b34',
-          hover: '#925a2b',
+          DEFAULT: '#000000',
+          hover: '#A50B0F',
         },
-        paragraph: '#878e99',
+        paragraph: '#212121',
+        maintext: '#525252',
+        contact: '#e5e7eb',
       },
+      // backgroundImage: {
+      //   'WuObjectTrial': 'url("/src/assets/img/wuestenrot_object_red.svg")',
+      // },
+      boxShadow: {
+        '3xl': '5px 10px 25px 10px rgba(0, 0, 0, 0.25)',
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        '.drag-none': {
+          '-webkit-user-drag': 'none',
+          '-khtml-user-drag': 'none',
+          '-moz-user-drag': 'none',
+          '-o-user-drag': 'none',
+          'user-drag': 'none'
+        }
+      });
+    })
+  ]
 };
