@@ -9,7 +9,7 @@ import Redirect from './components/Redirect';
 export default function Main() {
   return (
 
-      <HashRouter basename={process.env.PUBLIC_URL} hashType={noslash}>
+      <HashRouter>
         <Routes>
               <Route path='/' element={<App />} />
               <Route path='/redirect' element={<Redirect />}/>
