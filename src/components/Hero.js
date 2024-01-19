@@ -9,6 +9,7 @@ import WuObjectDR from '../assets/img/wuestenrot_object_dark_red.svg'
 import WuObjectDRH from '../assets/img/wuestenrot_object_dark_red_hollow.svg'
 import WuObjectRRH from '../assets/img/wuestenrot_object_red_red_hollow.svg'
 
+import { HashLink } from 'react-router-hash-link'
 
 // import profile picture
 import ProfilePhoto from '../assets/img/hero0_cropped.png'
@@ -32,16 +33,16 @@ const Hero = () => {
                     </div>
                     <h1 className='text-5xl leading-10 md:text-6xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px] text-quaternary max-lg:text-center'> Ako finančný poradca ponúkam komplexné finančné služby.</h1>
                     <p className='pt-4 pb-8 md:pt-6 md:pb-8 max-w-[480px] text-lg text-center lg:text-left text-maintext'>Svoju prácu beriem ako poslanie a snažím sa ju vykonávať profesionálne, odborne, najlepšie ako viem, neustále sa vzdelávať a pracovať na sebe. Poskytujem komplexné finančné služby v oblasti poistenie, investovanie, poskytovanie úverov.</p>
-                    <a href='#contact' id='button' className='btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold md:mb-4'>Kontakt</a>
+                    <HashLink to="#contact" id='button' className='btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold md:mb-4'>Kontakt</HashLink>
                 </div>
                 {/* right side */}
                 <div className='max-xl:hidden flex lg:flex-1 justify-end items-end h-full'>
-                        <img className='-mb-28 select-none h-[95%] w-[85%] z-10 ' src={ProfilePhoto} draggable='false' alt='' />
+                    <img className='-mb-28 select-none h-[95%] w-[85%] z-10 ' src={ProfilePhoto} draggable='false' alt='' />
                 </div>
 
                 <div className='xl:hidden flex lg:flex-1 justify-end items-end h-full max-lg:order-1 max-lg:justify-center max-lg:items-center max-xl:items-center max-lg:my-36 max-sm:my-20 max-sm:mb-40 relative'>
-                    <div className='border-2 border-tertiary before:absolute before:border before:border-accent-hover before:top-0 before:bottom-0 before:left-0 before:right-0 before:rounded-full before:z-0 rounded-full h-72 w-72 max-sm:h-60 max-sm:w-60 max-xl:h-96 max-xl:w-96 absolute overflow-hidden'>
-                        <img className='-mb-28 select-none h-full w-[90%] z-10 pl-5' src={ProfilePhoto} draggable='false' alt='' />
+                    <div className='border-2 border-tertiary before:absolute before:border before:border-accent-hover before:top-0 before:bottom-0 before:left-0 before:right-0 before:rounded-full before:z-0 rounded-full h-72 w-72 max-sm:h-60 max-sm:w-60 max-xl:h-96 max-xl:w-96 absolute overflow-hidden flex justify-center'>
+                        <img className='-mb-28 select-none h-full w-[75%] z-10' src={ProfilePhoto} draggable='false' alt='' />
                     </div>
                 </div>
 

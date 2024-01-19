@@ -12,47 +12,59 @@ import WuObjectG from '../assets/img/wuestenrot_object_grey.svg'
 const Redirect = () => {
   return (
     <section className='bg-[#e5e7eb] relative h-[100vh] z-[60] overflow-hidden'>
-        <div className='container mx-auto '>
-            <div className='group absolute top-1/4 left-1/3 bg-primary p-20 hover:shadow-2xl hover:shadow-accent-hover duration-700 z-10'>
-                <img className='' src='' alt='' />
-                <h1 className='text-2xl font-bold text-center text-quaternary group-hover:text-accent-hover duration-700'>Ďakujem za vašu správu.</h1>
-                <p className='text-center text-xl text-quaternary'>Najneskôr do 14 dní sa vám ozvem naspäť.</p>
-                <p className='opacity-70 mt-14 -mb-16 text-sm text-center'>Vrátiť sa na domovskú stránku: <a href='http://localhost:3000' className='underline'>http://localhost:3000</a></p>
-            </div>
+          
+      <div className='w-full h-[100vh] flex flex-col justify-center items-center'>
+        
+        <div className='max-md:px-10 max-md:pt-20 z-20'>
+  
+          <div className='group bg-primary p-20 hover:shadow-md hover:shadow-[#9e9e9e] duration-300 mb-10 max-md:mb-72'>
+            {/* <img className='' src='' alt='' /> */}
+            <h1 className='text-2xl font-bold text-center text-quaternary group-hover:text-accent-hover duration-700 pb-2'>Ďakujem za vašu správu.</h1>
+            <p className='text-center text-xl text-quaternary'>Najneskôr do 10 pracovných dní sa vám ozvem naspäť.</p>
+            <p className='opacity-70 mt-14 -mb-16 text-sm text-center'>Vrátiť sa na domovskú stránku: <a href='http://localhost:3000' className='underline'>http://localhost:3000</a></p>
+          </div>
+  
         </div>
-
-        <div className=''>
-          <img className='absolute top-96 right-50 w-1/3 select-none drag-none z-10 opacity-80' draggable="false" src={WuLogo} />
-        </div>
-
-        <div className=''>
-          <img className='absolute bottom-[-35rem] left-10 h-full w-2/3 select-none drag-none z-20 opacity-95' draggable="false" src={WuLogo} />
-        </div>
-
-        <div className='max-md:order-1 z-10 absolute bottom-10 right-20'>
-          <a href='#home' className='flex max-md:flex-col'>
+  
+        <div className='z-20 p-10 max-md:right-32'>
+          <div className='flex max-xl:flex-col'>
             <p className='text-quaternary text-2xl flex items-center '>Viera Podhradská</p>
-            <p className='text-quaternary px-5 flex items-center text-2xl max-md:hidden'>|</p>
+            <p className='text-quaternary px-5 flex items-center text-2xl max-xl:hidden'>|</p>
             <img className='select-none' src={LogoRed} alt='' />
-          </a>
+          </div>
         </div>
 
-        <div className=''>
-            <img className='absolute -top-80 -right-16 max-lg:bottom-48 max-lg:left-10 max-sm:bottom-56 max-sm:-left-4 select-none h-[30rem] z-10' draggable="false" src={WuObjectGR} />
-        </div>
+      </div>
 
-        <div className=''>
-            <img className='absolute -top-72 right-12 max-lg:bottom-48 max-lg:left-0 max-sm:-left-20 select-none h-[30rem] z-0' draggable="false" src={WuObjectDRR} />
-        </div>
+      {/* WU logos */}
+      <div className='max-lg:hidden'>
+        <img className='absolute top-96 right-50 w-1/3 select-none drag-none z-10 opacity-80' draggable="false" src={WuLogo} />
+      </div>
 
-        <div className=''>
-            <img className='absolute top-36 -right-6 max-lg:left-10 max-sm:-left-4 max-sm:top-28 select-none h-[30rem] z-0' draggable="false" src={WuObjectRRH} />
-        </div>
+      <div className='max-lg:hidden'>
+        <img className='absolute bottom-[-40rem] left-10 h-full w-2/3 select-none drag-none z-20 opacity-95' draggable="false" src={WuLogo} />
+      </div>
 
+      <div className='lg:hidden'>
+        <img className='absolute -bottom-[38rem] -right-48 h-full w-2/3 select-none drag-none z-0 opacity-95' draggable="false" src={WuLogo} />
+      </div>
 
-        <div className=''>
-            <img className='absolute top-[-100rem] left-6 max-lg:bottom-48 max-lg:left-10 max-sm:bottom-56 max-sm:-left-4 select-none w-2/3 z-0 opacity-30' draggable="false" src={WuObjectG} />
-        </div>
+      {/* hollow objects */}
+      <div className=''>
+          <img className='absolute -top-80 -right-16 max-lg:bottom-48 max-lg:left-10 max-sm:bottom-56 max-sm:-left-4 select-none h-[30rem] z-10' draggable="false" src={WuObjectGR} />
+      </div>
+
+      <div className=''>
+          <img className='absolute -top-72 right-12 max-lg:bottom-48 max-lg:left-0 max-sm:-left-20 select-none h-[30rem] z-0' draggable="false" src={WuObjectDRR} />
+      </div>
+
+      <div className=''>
+          <img className='absolute top-36 -right-6 max-lg:left-10 max-sm:-left-4 max-sm:top-28 select-none h-[30rem] z-0' draggable="false" src={WuObjectRRH} />
+      </div>
+
+      <div className=''>
+          <img className='absolute top-[-100rem] left-6 max-lg:bottom-48 max-lg:left-10 max-sm:bottom-56 max-sm:-left-4 select-none w-2/3 z-0 opacity-30' draggable="false" src={WuObjectG} />
+      </div>
 
     </section>
   )

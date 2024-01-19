@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 
 // import navigation data
 import { navigation } from '../data';
@@ -56,12 +56,21 @@ const NavMobile = () => {
       }
     }
   }
+
+  // scroll hamburger-menu change color
+  const [text, setText] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', ()=> {
+        return window.scrollY > 50 ? setText(true) : setText(false);
+    });
+  });
   
   return (
     <nav className='relative'>
       
       {/* menu icon */}
-      <div onClick={() => setIsOpen(true)} className='cursor-pointer text-quaternary'>
+      <div onClick={() => setIsOpen(true)} className={`${text ? 'text-primary' : 'text-quaternary'} cursor-pointer`}>
         <MenuAlt3Icon className='w-8 h-8' />
       </div>
 
@@ -84,7 +93,7 @@ const NavMobile = () => {
         </div>
 
         {/* close icon */}
-        <div onClick={() => setIsOpen(false)} className='cursor-pointer absolute top-7 right-48 max-md:right-20 max-sm:right-16 text-primary'>
+        <div onClick={() => setIsOpen(false)} className='cursor-pointer absolute top-7 right-48 max-md:right-20 max-sm:right-16 text-primary z-20'>
           <XIcon className='w-8 h-8' />
         </div>
         {

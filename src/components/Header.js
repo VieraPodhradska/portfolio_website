@@ -24,6 +24,7 @@ const Header = () => {
             return window.scrollY > 50 ? setBg(true) : setBg(false);
         });
     });
+    
     useEffect(() => {
         window.addEventListener('scroll', ()=> {
             return window.scrollY > 50 ? setSource(LogoWhite) : setSource(LogoRed);
@@ -43,7 +44,7 @@ const Header = () => {
           </div>
 
           <div className=''>
-            <img className='absolute top-7 -left-28 select-none h-96 z-0' draggable="false" src={WuObjectRRH} />
+            <img className='absolute top-7 -left-60 select-none h-96 z-0' draggable="false" src={WuObjectRRH} />
           </div>
 
           {/* logo */}

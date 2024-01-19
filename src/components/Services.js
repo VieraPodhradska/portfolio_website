@@ -20,7 +20,7 @@ const Services = () => {
             </div>
 
             <div className='w-full flex flex-col items-center '>
-                <h2 className='section-title before:content-sluzby relative before:absolute before:opacity-40 before:-top-[3rem] before:-right-[20rem] before:max-lg:-right-52 before:max-lg:scale-75 before:max-sm:-right-16 text-quaternary space-y-1 max-lg:mt-10 z-10'>
+                <h2 className='section-title before:content-sluzby relative before:absolute before:opacity-40 before:-top-[3rem] before:-right-[20rem] before:max-xl:-right-52 before:max-lg:scale-75 before:max-sm:-right-16 text-quaternary space-y-1 max-lg:mt-10 z-10'>
                     <p className='mb-1'>Poskytujem komplexné finančné služby</p>
                     <hr className='border-tertiary w-full' />
                     <hr className='border-accent-hover w-1/3 border' />

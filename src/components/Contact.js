@@ -27,11 +27,11 @@ const Contact = () => {
                 <img className='absolute top-[40rem] right-0 h-full select-none drag-none z-0 max-lg:opacity-60' draggable="false" src={WuObjectG} />
             </div>
 
-            <div className='max-lg:hidden'>
+            <div className='max-xl:hidden'>
                 <img className='absolute -top-40 right-14 h-2/4 select-none drag-none z-0 max-lg:opacity-60' draggable="false" src={WuObjectRH} />
             </div>
 
-            <div className='max-lg:hidden'>
+            <div className='max-xl:hidden'>
                 <img className='absolute -top-60 -right-0 h-2/4 select-none drag-none z-0 max-lg:opacity-60' draggable="false" src={WuObjectDRH} />
             </div>
 
@@ -41,7 +41,7 @@ const Contact = () => {
                     <p className='opacity-80'>Kontakt</p>
                     <hr className='border-tertiary w-full border' />
                     <hr className='border-accent-hover w-1/3 border-2' />
-                    </h2>
+                </h2>
                 <p className='subtitle text-maintext z-10'>
                  V prípade akýchkoľvek otázok ma neváhajte kontaktovať na dole uvedené adresy alebo mi napíšte cez kontaktný formulár.
                 </p>
@@ -73,7 +73,7 @@ const Contact = () => {
                         <input className='input focus:outline-none focus:border focus:border-maintext' type='text' name='Meno' placeholder='Vaše meno' required/>
                         <input className='input focus:outline-none focus:border focus:border-maintext' type='email' name='E-mail' placeholder='Váš email' required/>
                     </div>
-                    <input className='input focus:outline-none focus:border focus:border-maintext' type='text' name='Téma' placeholder='Téma / Názov' required/>
+                    <input className='input focus:outline-none focus:border focus:border-maintext' type='text' name='Téma' placeholder='Názov témy / Téma' required/>
                     <textarea className='textarea focus:outline-none focus:border focus:border-maintext' name='Správa' placeholder='Vaša správa' required></textarea>
                     <button id='button' className='btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold mt-10'>Odoslať</button>
                 </form>

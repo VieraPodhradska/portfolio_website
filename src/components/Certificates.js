@@ -16,7 +16,7 @@ const Certificates = () => {
             </div>
 
             <div className='flex flex-col items-center gap-5 z-10'>
-                <h1 className='text-4xl before:content-uspechy relative before:absolute before:opacity-40 before:-top-[4rem] before:-right-[30rem] before:max-lg:-right-52 before:max-lg:scale-75 before:max-sm:-right-16 text-quaternary space-y-1 max-lg:mt-10'>
+                <h1 className='text-4xl before:content-uspechy relative before:absolute before:opacity-40 before:-top-[4rem] before:-right-[30rem] before:max-xl:-right-96 before:max-lg:scale-75 before:max-lg:-right-48 before:max-sm:-right-28 text-quaternary space-y-1 max-lg:mt-10'>
                     <p className=''>Ocenenia a certifikáty</p>
                     <hr className='border-tertiary w-full' />
                     <hr className='border-accent-hover w-1/3 border' />
