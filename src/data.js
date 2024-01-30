@@ -7,16 +7,11 @@ import {
 
 import { HiOutlineTrendingUp } from "react-icons/hi";
 
-import { LiaPiggyBankSolid } from "react-icons/lia";
-
 import { BsHouses } from "react-icons/bs";
 
 import { IoNewspaperOutline } from "react-icons/io5";
 
 import { GrMoney } from "react-icons/gr";
-
-import { VscSymbolEnum } from "react-icons/vsc";
-
 
 // companies icons
 import WuestenrotBrandIcon from './assets/img/brands/wuestenrot_main_logo.png';
@@ -24,7 +19,7 @@ import WuestenrotBrandIcon from './assets/img/brands/wuestenrot_main_logo.png';
 // certs
 import Cert1 from './assets/img/certificates/cert1.jpg';
 import Cert2 from './assets/img/certificates/cert2.jpg';
-
+import Cert3 from './assets/img/certificates/cert3.jpg';
 
 // navigation
 export const navigation = [
@@ -75,13 +70,18 @@ export const certs = [
   {
     img: Cert1,
     name: 'TOP Wüstenrot InHouse Obchodník KAPITÁLOVÝ TRH',
-    description: 'Získanie 2. Miesta v ocenení TOP Wüstenrot InHouse Obchodník v roku 0000.',
+    description: 'Získanie 2. Miesta v ocenení TOP Wüstenrot InHouse Obchodník v roku 2023.',
   },
   {
     img: Cert2,
     name: 'ELITA 2022 Certifikát',
     description: 'Členstvo v skupine ELITA v roku 2022.',
   },
+  {
+    img: Cert3,
+    name: 'ELITA 2023 Certifikát',
+    description: 'Členstvo v skupine ELITA v roku 2023.',
+  }
 ]
 
 // services

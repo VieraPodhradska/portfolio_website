@@ -53,7 +53,7 @@ html {
   background-color: theme('colors.tertiary');
 }
 
-#button:focus {
+.button:focus {
   outline: 0px;
   outline-offset: 0px;
   border-width: 1px;

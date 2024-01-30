@@ -12,7 +12,7 @@ const Certificates = () => {
         <div className='container mx-auto'>
             
             <div className=''>
-                <img className='absolute top-0 -left-96 select-none w-1/2 z-0' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute top-0 -left-96 select-none w-1/2 z-0' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className='flex flex-col items-center gap-5 z-10'>
@@ -30,7 +30,7 @@ const Certificates = () => {
                     const { img, name, description } = cert;
                     return (
                         <div className='group bg-primary flex flex-col gap-5 border shadow-md hover:shadow-accent-hover duration-1000 p-10 z-10 min-h-[40rem] max-lg:items-center overflow-hidden' key={index}>
-                            <img className='max-h-lg max-w-lg object-cov select-none' src={img} />
+                            <img alt='' className='max-h-lg max-w-lg object-cov select-none' src={img} />
                             <h1 className='text-xl text-quaternary group-hover:text-tertiary duration-500'>{name}</h1>
                             <p className='opacity-70'>{description}</p>
                         </div>
@@ -39,19 +39,19 @@ const Certificates = () => {
             </div>
 
             <div className=''>
-                <img className='absolute -bottom-20 -right-20 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute -bottom-20 -right-20 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className=''>
-                <img className='absolute -bottom-40 right-0 select-none h-96 z-0' draggable="false" src={WuObjectDR} />
+                <img alt='' className='absolute -bottom-40 right-0 select-none h-96 z-0' draggable="false" src={WuObjectDR} />
             </div>
 
             <div className=''>
-                <img className='absolute -top-72 -left-32 select-none h-[35rem] z-0 max-lg:opacity-60 max-lg:-left-40 max-lg:top-96' draggable="false" src={WuObjectRH} />
+                <img alt='' className='absolute -top-72 -left-32 select-none h-[35rem] z-0 max-lg:opacity-60 max-lg:-left-40 max-lg:top-96' draggable="false" src={WuObjectRH} />
             </div>
 
             <div className=''>
-                <img className='absolute -bottom-56 right-10  select-none h-96 z-0' draggable="false" src={WuObjectRH} />
+                <img alt='' className='absolute -bottom-56 right-10  select-none h-96 z-0' draggable="false" src={WuObjectRH} />
             </div>
 
         </div>

@@ -19,7 +19,7 @@ const Skills = () => {
                 {skills.map((skill, index)=> {
                     return (
                         <div className='flex items-center justify-center' key={index}>
-                            <img src={skill.image} alt='' />
+                            <img alt='' src={skill.image} alt='' />
                             
                         </div>
                     )
@@ -27,7 +27,7 @@ const Skills = () => {
             </div> */}
 
             {/* <div className=''> 
-                <img className='absolute top-0 right-0 select-none' draggable="false" src={WuObjectG} />
+                <img alt='' className='absolute top-0 right-0 select-none' draggable="false" src={WuObjectG} />
             </div>
 
             <div>
@@ -35,36 +35,36 @@ const Skills = () => {
             </div>
 
             <div className=''>
-                <img className='absolute -top-40 left-0 max-h-72 select-none' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute -top-40 left-0 max-h-72 select-none' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className=''>
-                <img className='absolute top-0 left-80 select-none' draggable="false" src={WuObjectGRM} />
+                <img alt='' className='absolute top-0 left-80 select-none' draggable="false" src={WuObjectGRM} />
             </div>
 
             <div className=''>
-                <img className='absolute top-0 left-80 select-none' draggable="false" src={WuObjectDRH} />
+                <img alt='' className='absolute top-0 left-80 select-none' draggable="false" src={WuObjectDRH} />
             </div>
 
             <div className=''>
-                <img className='absolute top-0 left-0 select-none' draggable="false" src={WuObjectRH} />
+                <img alt='' className='absolute top-0 left-0 select-none' draggable="false" src={WuObjectRH} />
             </div> */}
 
 
             <div className=''>
-                <img className='absolute top-0 left-0 select-none' draggable="false" src={WuObjectG} />
+                <img alt='' className='absolute top-0 left-0 select-none' draggable="false" src={WuObjectG} />
             </div>
 
             <div className=''>
-                <img className='absolute -top-96 left-32 select-none' draggable="false" src={WuObjectGRM} />
+                <img alt='' className='absolute -top-96 left-32 select-none' draggable="false" src={WuObjectGRM} />
             </div>
 
             <div className=''>
-                <img className='absolute -top-80 right-20 select-none max-lg:hidden' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute -top-80 right-20 select-none max-lg:hidden' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className=''>
-                <img className='absolute -top-20 right-0 select-none' draggable="false" src={WuObjectR} />
+                <img alt='' className='absolute -top-20 right-0 select-none' draggable="false" src={WuObjectR} />
             </div>
 
         </div>

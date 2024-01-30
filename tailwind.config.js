@@ -40,12 +40,6 @@ module.exports = {
         maintext: '#525252',
         contact: '#e5e7eb',
       },
-      // backgroundImage: {
-      //   'WuObjectTrial': 'url("/src/assets/img/wuestenrot_object_red.svg")',
-      // },
-      boxShadow: {
-        '3xl': '5px 10px 25px 10px rgba(0, 0, 0, 0.25)',
-      }
     },
   },
   plugins: [

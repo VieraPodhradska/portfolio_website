@@ -18,27 +18,27 @@ const Brands = () => {
         <div className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly relative'>
             
             <div className=''>
-                <img className='absolute top-0 left-0 select-none' draggable="false" src={WuObjectG} />
+                <img alt='' className='absolute top-0 left-0 select-none' draggable="false" src={WuObjectG} />
             </div>
             
             {brands.map((brand, index)=> {
                 return (
                     <div className='w-full flex justify-center z-10' key={index}>
-                        <img className='max-h-20 select-none' src={brand.img} alt='' />
+                        <img alt='' className='max-h-20 select-none' src={brand.img} />
                     </div>
                 )
             })}
 
             <div className=''>
-                <img className='absolute -top-96 left-32 select-none' draggable="false" src={WuObjectGRM} />
+                <img alt='' className='absolute -top-96 left-32 select-none' draggable="false" src={WuObjectGRM} />
             </div>
 
             <div className=''>
-                <img className='absolute -top-80 right-20 select-none max-lg:hidden' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute -top-80 right-20 select-none max-lg:hidden' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className=''>
-                <img className='absolute -top-20 right-0 select-none' draggable="false" src={WuObjectR} />
+                <img alt='' className='absolute -top-20 right-0 select-none' draggable="false" src={WuObjectR} />
             </div>
 
         </div>

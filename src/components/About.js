@@ -19,14 +19,14 @@ const About = () => {
         <div className='container mx-auto'>
 
             <div className=''>
-                <img className='absolute top-0 -left-96 select-none w-1/2' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute top-0 -left-96 select-none w-1/2' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className='flex max-lg:flex-col flex-row gap-24 max-xl:gap-8'>
                 
                 <div className='relative lg:flex-1 overflow-hidden max-xl:scale-75 max-lg:-mb-16 max-sm:-mb-6 z-10'>
-                    <HashLink to='#certificates'><p className='text-primary bg-accent-hover px-32 py-1 absolute text-center font-bold -rotate-45 top-7 -left-24 shadow-xl before:content-ribbonWLogo before:absolute before:z-0 before:opacity-50 before:scale-150 overflow-hidden before:left-20 hover:scale-110 duration-500 cursor-pointer hover:shadow-2xl'>Člen skupiny <br /> <span className='text-[#ffc800] opacity-90'>ELITE</span></p></HashLink>
-                    <img className='object-cover h-full w-[566px] max-lg:w-full md:mx-auto lg:mx-0 z-10' src={Image} alt='' />
+                    <HashLink to='#certificates'><p className='text-primary bg-accent-hover px-32 py-1 absolute text-center font-bold -rotate-45 top-7 -left-24 shadow-xl before:content-ribbonWLogo before:absolute before:z-0 before:opacity-50 before:scale-150 overflow-hidden before:left-20 hover:scale-110 duration-500 cursor-pointer hover:shadow-2xl'>Člen skupiny <br /> <span className='text-[#ffc800] opacity-90'>ELITA</span></p></HashLink>
+                    <img alt='' className='object-cover h-full w-[566px] max-lg:w-full md:mx-auto lg:mx-0 z-10' src={Image} />
                 </div>
                 
                 <div className='flex flex-col max-lg:items-center max-lg:text-center items-start text-left z-10 lg:flex-1'>
@@ -48,14 +48,14 @@ const About = () => {
                             </p>
 
                             <div className=''>
-                                <img className='absolute -bottom-8 right-12 select-none h-44 z-0' draggable="false" src={WuObjectGR} />
+                                <img alt='' className='absolute -bottom-8 right-12 select-none h-44 z-0' draggable="false" src={WuObjectGR} />
                             </div>
                             <div className=''>
-                                <img className='absolute -bottom-8 right-12 select-none h-44 z-0' draggable="false" src={WuObjectGR} />
+                                <img alt='' className='absolute -bottom-8 right-12 select-none h-44 z-0' draggable="false" src={WuObjectGR} />
                             </div>
 
                             <div className=''>
-                                <img className='absolute -bottom-20 right-6 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
+                                <img alt='' className='absolute -bottom-20 right-6 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
                             </div>
                         </div>
 
@@ -71,25 +71,25 @@ const About = () => {
                             </div>
 
                             <div className=''>
-                                <img className='absolute -bottom-20 right-40 h-3/4 max-md:right-28 select-none z-1 max-md:scale-75' draggable="false" src={WuObjectGR} />
+                                <img alt='' className='absolute -bottom-20 right-40 h-3/4 max-md:right-28 select-none z-1 max-md:scale-75' draggable="false" src={WuObjectGR} />
                             </div>
                             <div className=''>
-                                <img className='absolute -bottom-20 right-40 h-3/4 max-md:right-28 select-none z-1 max-md:scale-75' draggable="false" src={WuObjectGR} />
+                                <img alt='' className='absolute -bottom-20 right-40 h-3/4 max-md:right-28 select-none z-1 max-md:scale-75' draggable="false" src={WuObjectGR} />
                             </div>
 
                             <div className=''>
-                                <img className='absolute -bottom-44 right-32 h-5/6 max-md:right-20 max-md:-bottom-36 select-none z-0 opacity-70 max-md:scale-75' draggable="false" src={WuObjectGR} />
+                                <img alt='' className='absolute -bottom-44 right-32 h-5/6 max-md:right-20 max-md:-bottom-36 select-none z-0 opacity-70 max-md:scale-75' draggable="false" src={WuObjectGR} />
                             </div>
                         </div>
 
                         <p className='text-lg max-md:text-base leading-8 mt-5 text-maintext'>Vo finančnom sektore pôsobím už 15 rokov. Svoju prácu beriem ako poslanie a snažím sa  ju vykonávať profesionálne, odborne, najlepšie ako viem, neustále sa vzdelávať a pracovať na sebe. <br /> Nie vždy je to jednoduché, ale vďaka Wüstenrot poisťovni, Wüstenrot InHouse Broker, mojej riaditeľke Andrei Adamovičovej a hlavne vďaka vám, mojim úžasným klientom, sa mi darí žiť život podľa mojich predstáv.</p>
                     </div>
-                    <HashLink to="#contact" id='button' className='btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold mt-10'>Kontakt</HashLink>
+                    <HashLink to="#contact" className='button btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold mt-10'>Kontakt</HashLink>
                 </div>
             </div>
 
             <div className=''>
-                <img className='absolute -bottom-20 -right-20 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute -bottom-20 -right-20 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
             </div>
 
         </div>

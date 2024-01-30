@@ -81,15 +81,15 @@ const NavMobile = () => {
       <motion.ul variants={ulVariants} initial='hidden' animate={isOpen ? 'visible' : ''} className={`${isOpen ? 'right-0' : '-right-full'} fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden z-[60] gap-4`}>
 
         {/* <div className=''>
-          <img className='absolute -top-72 left-24 select-none h-2/4' draggable="false" src={WuObjectGR} />
+          <img alt='' className='absolute -top-72 left-24 select-none h-2/4' draggable="false" src={WuObjectGR} />
         </div>
 
         <div className=''>
-          <img className='absolute -top-36 left-48 select-none h-2/5' draggable="false" src={WuObjectGR} />
+          <img alt='' className='absolute -top-36 left-48 select-none h-2/5' draggable="false" src={WuObjectGR} />
         </div> */}
 
         <div className=''>
-          <img className='absolute -top-48 max-md:left-0 left-20 select-none h-2/5 rotate-180' draggable="false" src={WuLogo} />
+          <img alt='' className='absolute -top-48 max-md:left-0 left-20 select-none h-2/5 rotate-180' draggable="false" src={WuLogo} />
         </div>
 
         {/* close icon */}
@@ -109,20 +109,20 @@ const NavMobile = () => {
         <div className='flex space-x-16 px-16 py-6 absolute bottom-16'>
           {social.map((item, index) => {
               const { icon, href } = item;
-              return <a href={href} key={index} className='text-primary text-xl z-20' target='_blank'>{icon}</a>
+              return <a aria-label='social media link' href={href} key={index} className='text-primary text-xl z-20' target='_blank'>{icon}</a>
           })}
         </div>
 
         <div className=''>
-          <img className='absolute bottom-52 -right-10 max-sm:-right-32 select-none h-96 z-10' draggable="false" src={WuObjectGR} />
+          <img alt='' className='absolute bottom-52 -right-10 max-sm:-right-32 select-none h-96 z-10' draggable="false" src={WuObjectGR} />
         </div>
 
         <div className=''>
-          <img className='absolute bottom-40 right-10 max-sm:-right-16 select-none h-96 z-0' draggable="false" src={WuObjectDRR} />
+          <img alt='' className='absolute bottom-40 right-10 max-sm:-right-16 select-none h-96 z-0' draggable="false" src={WuObjectDRR} />
         </div>
 
         <div className=''>
-          <img className='absolute -bottom-40 -right-16 select-none h-96 z-0' draggable="false" src={WuObjectRRH} />
+          <img alt='' className='absolute -bottom-40 -right-16 select-none h-96 z-0' draggable="false" src={WuObjectRRH} />
         </div>
 
       </motion.ul>

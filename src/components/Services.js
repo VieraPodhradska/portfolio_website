@@ -16,7 +16,7 @@ const Services = () => {
         <div className='container mx-auto'>
 
             <div className=''>
-                <img className='absolute top-0 -left-96 select-none w-1/2' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute top-0 -left-96 select-none w-1/2' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className='w-full flex flex-col items-center '>
@@ -44,19 +44,19 @@ const Services = () => {
             </div>
 
             <div className=''>
-                <img className='absolute -bottom-20 -right-20 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
+                <img alt='' className='absolute -bottom-20 -right-20 select-none h-3/4 z-0' draggable="false" src={WuObjectGR} />
             </div>
 
             <div className=''>
-                <img className='absolute -bottom-40 right-0 select-none h-96 z-0' draggable="false" src={WuObjectDR} />
+                <img alt='' className='absolute -bottom-40 right-0 select-none h-96 z-0' draggable="false" src={WuObjectDR} />
             </div>
 
             <div className=''>
-                <img className='absolute -top-72 -left-32 select-none h-[35rem] z-0 max-lg:opacity-60 max-lg:-left-40 max-lg:top-96' draggable="false" src={WuObjectRH} />
+                <img alt='' className='absolute -top-72 -left-32 select-none h-[35rem] z-0 max-lg:opacity-60 max-lg:-left-40 max-lg:top-96' draggable="false" src={WuObjectRH} />
             </div>
 
             <div className=''>
-                <img className='absolute -bottom-56 right-10  select-none h-96 z-0' draggable="false" src={WuObjectRH} />
+                <img alt='' className='absolute -bottom-56 right-10  select-none h-96 z-0' draggable="false" src={WuObjectRH} />
             </div>
 
         </div>

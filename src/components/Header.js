@@ -36,22 +36,22 @@ const Header = () => {
         <div className='container mx-auto h-full flex items-center justify-between relative'>
           
           <div className=''>
-            <img className='absolute bottom-8 -left-40 select-none h-96 z-10' draggable="false" src={WuObjectGR} />
+            <img alt='' className='absolute bottom-8 -left-40 select-none h-96 z-10' draggable="false" src={WuObjectGR} />
           </div>
 
           <div className=''>
-            <img className='absolute bottom-4 -left-52 select-none h-96 z-0' draggable="false" src={WuObjectDRR} />
+            <img alt='' className='absolute bottom-4 -left-52 select-none h-96 z-0' draggable="false" src={WuObjectDRR} />
           </div>
 
           <div className=''>
-            <img className='absolute top-7 -left-60 select-none h-96 z-0' draggable="false" src={WuObjectRRH} />
+            <img alt='' className='absolute top-7 -left-60 select-none h-96 z-0' draggable="false" src={WuObjectRRH} />
           </div>
 
           {/* logo */}
-          <a href='#home' className='flex max-sm:flex-col'>
+          <a aria-label='homepage logo' href='#home' className='flex max-sm:flex-col'>
             <p className={`${bg ? 'text-primary' : 'text-quaternary'} text-2xl flex items-center transition-all duration-300 max-sm:text-xl max-sm:-mb-2`}>Viera Podhradská</p>
             <p className={`${bg ? 'text-primary' : 'text-quaternary'} px-5 flex items-center text-2xl transition-all duration-300 max-sm:hidden`}>|</p>
-            <img className='transition-all duration-300 select-none max-sm:scale-75 max-sm:-mb-2' src={source} alt='' />
+            <img alt='' className='transition-all duration-300 select-none max-sm:scale-75 max-sm:-mb-2' src={source} />
           </a>
           {/* nav */}
           <div className='hidden xl:block'>
@@ -67,22 +67,22 @@ const Header = () => {
           </div>
 
           <div className=''>
-            <img className='absolute -bottom-24 -right-14 select-none h-40 w-40 z-20' draggable="false" src={WuObjectR} />
+            <img alt='' className='absolute -bottom-24 -right-14 select-none h-40 w-40 z-20' draggable="false" src={WuObjectR} />
           </div>
 
           <div className=''>
-            <img className='absolute top-2 -right-12 select-none h-40 w-40 z-10' draggable="false" src={WuObjectG} />
+            <img alt='' className='absolute top-2 -right-12 select-none h-40 w-40 z-10' draggable="false" src={WuObjectG} />
           </div>
           <div className=''>
-            <img className='absolute top-2 -right-12 select-none h-40 w-40 z-10' draggable="false" src={WuObjectG} />
-          </div>
-
-          <div className=''>
-            <img className='absolute top-5 -right-10 select-none h-40 w-40 z-0' draggable="false" src={WuObjectDRH} />
+            <img alt='' className='absolute top-2 -right-12 select-none h-40 w-40 z-10' draggable="false" src={WuObjectG} />
           </div>
 
           <div className=''>
-            <img className='absolute top-7 -right-20 select-none h-40 w-40 z-30' draggable="false" src={WuObjectDRH} />
+            <img alt='' className='absolute top-5 -right-10 select-none h-40 w-40 z-0' draggable="false" src={WuObjectDRH} />
+          </div>
+
+          <div className=''>
+            <img alt='' className='absolute top-7 -right-20 select-none h-40 w-40 z-30' draggable="false" src={WuObjectDRH} />
           </div>
 
         </div>
