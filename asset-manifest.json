@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Test/static/css/main.0958a0f3.css",
+    "main.js": "/Test/static/js/main.19fc7ae9.js",
+    "static/media/hero0_cropped.png": "/Test/static/media/hero0_cropped.cf22764f567763047162.png",
+    "static/media/about.png": "/Test/static/media/about.b13989785efa2543d1e2.png",
+    "static/media/cert3.jpg": "/Test/static/media/cert3.9685fdfa2729e31f582b.jpg",
+    "static/media/cert2.jpg": "/Test/static/media/cert2.4dd3add80a1514f1a493.jpg",
+    "static/media/cert1.jpg": "/Test/static/media/cert1.758d642af5dbdc76769c.jpg",
+    "static/media/wuestenrot_main_logo.png": "/Test/static/media/wuestenrot_main_logo.ad3d4f1da741b5842b44.png",
+    "static/media/w_inhouse_transparant_cropped.png": "/Test/static/media/w_inhouse_transparant_cropped.2aae47b6bbab52785d82.png",
+    "static/media/w_inhouse_red_transparant_cropped.png": "/Test/static/media/w_inhouse_red_transparant_cropped.d6e7f5b1c71b661050f2.png",
+    "static/media/uspechy.svg": "/Test/static/media/uspechy.789aca988b174ea3ba81.svg",
+    "static/media/kontakt.svg": "/Test/static/media/kontakt.aa3d50a6910416f3934d.svg",
+    "static/media/o_mne.svg": "/Test/static/media/o_mne.00dbe69f4b3afecf2ab3.svg",
+    "static/media/sluzby.svg": "/Test/static/media/sluzby.3d68da4e475d66321945.svg",
+    "static/media/wuestenrot_object_logo.svg": "/Test/static/media/wuestenrot_object_logo.03eaeea147a4de5f35e96e0c4e9d883e.svg",
+    "index.html": "/Test/index.html",
+    "static/media/wuestenrot_object_grey_reverted_mirrored.svg": "/Test/static/media/wuestenrot_object_grey_reverted_mirrored.9fb128720085777699d61d0969848347.svg",
+    "static/media/wuestenrot_object_dark_red.svg": "/Test/static/media/wuestenrot_object_dark_red.af0ef98edfeacd2eacf4e42368969e1d.svg",
+    "static/media/wuestenrot_object_red.svg": "/Test/static/media/wuestenrot_object_red.98901fb34ef9975f7b5961fb5fd927c8.svg",
+    "static/media/wuestenrot_object_dark_red_hollow.svg": "/Test/static/media/wuestenrot_object_dark_red_hollow.93b8afeba0f09f23e8f927ca119d49ff.svg",
+    "static/media/wuestenrot_object_grey.svg": "/Test/static/media/wuestenrot_object_grey.d29041869ca6639034fcff2e97f9b676.svg",
+    "static/media/wuestenrot_object_red_hollow.svg": "/Test/static/media/wuestenrot_object_red_hollow.13fa033aecc3e9af2b7ef33e1617519a.svg",
+    "static/media/wuestenrot_object_red_red_hollow.svg": "/Test/static/media/wuestenrot_object_red_red_hollow.6977e5a1be71694ce3172972c0689a62.svg",
+    "static/media/wuestenrot_object_grey_reverted.svg": "/Test/static/media/wuestenrot_object_grey_reverted.708ead6d9e496508357f0e942d43d8d1.svg",
+    "static/media/wuestenrot_object_dark_red_reverted.svg": "/Test/static/media/wuestenrot_object_dark_red_reverted.01d052903129bea8ea76588350d566b7.svg",
+    "main.0958a0f3.css.map": "/Test/static/css/main.0958a0f3.css.map",
+    "main.19fc7ae9.js.map": "/Test/static/js/main.19fc7ae9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0958a0f3.css",
+    "static/js/main.19fc7ae9.js"
+  ]
+}
