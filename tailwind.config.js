@@ -24,7 +24,7 @@ module.exports = {
         o_mne: 'url("/src/assets/img/outline-text/o_mne.svg")',
         sluzby: 'url("/src/assets/img/outline-text/sluzby.svg")',
         kontakt: 'url("/src/assets/img/outline-text/kontakt.svg")',
-        ribbonWLogo: 'url("/src/assets/img/outline-text/w_inhouse_red_transparant_logo_yellow.png")',
+        ribbonWLogo: 'url("/src/assets/img/outline-text/w_inhouse_transparant_logo_red.png")',
         uspechy: 'url("/src/assets/img/outline-text/uspechy.svg")',
       },
       colors: {

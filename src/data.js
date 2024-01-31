@@ -102,13 +102,13 @@ export const services = [
     icon: <HiOutlineTrendingUp />,
     name: 'Investovanie',
     description:
-      'Akciové fondy, dlhopisové fondy, fondy peňažného trhu, investovanie do zlata...',
+      'Akciové fondy, dlhopisové fondy, fondy peňažného trhu, investície do zlata...',
   },
   {
     icon: <GrMoney />,
     name: 'Vklady a sporenie',
     description:
-      'Termínovaný vklad, starobné dôchodkové sporenie, sporiaci účet...',
+      'Starobné dôchodkové sporenie, kapitálový účet, sporiaci účet...',
   },
 ];
 

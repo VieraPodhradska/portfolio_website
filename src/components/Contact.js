@@ -11,13 +11,10 @@ import WuObjectDRH from '../assets/img/wuestenrot_object_dark_red_hollow.svg'
 import { contact } from '../data'
 
 import WuLogo from '../assets/img/wuestenrot_object_logo.svg'
-import Redirect from './Redirect'
-import { Link } from 'react-scroll'
-import { useNavigate } from 'react-router-dom'
+
+
 
 const Contact = () => {
-
-//   const navigate = useNavigate();
 
   return (
     <section className='section bg-contact relative overflow-hidden scroll-mt-16' id='contact'>
@@ -64,26 +61,23 @@ const Contact = () => {
                 </div>
 
                 {/* form */}
-                <form className='space-y-8 w-full max-w-[780px] z-10 max-xl:flex max-xl:flex-wrap lg:flex-[3_3_0%] max-lg:justify-center bg-[#c4c6cc] px-10 pb-8' name='contact' method='POST' action="https://formsubmit.co/podhradskaviera@azet.sk" onSubmit={() => {javascript:window.open('http://localhost:3000/redirect')}}>
+                <form className='space-y-8 w-full max-w-[780px] z-10 max-xl:flex max-xl:flex-wrap lg:flex-[3_3_0%] max-lg:justify-center bg-[#c4c6cc] px-10 pb-8' name='contact' method='POST' action="https://formsubmit.co/podhradskaviera@azet.sk">
                     <input type="hidden" name="_template" value="table"/>
                     <input type="hidden" name="_subject" value="Nová správa zo stránky vierapodhradska.sk"/>
                     <input type="hidden" name="_captcha" value="false"/>
-                    {/* <input type="hidden" name="_next" value="http://localhost:3000"/> */}
-                    {/* , '_blank' */}
+
+                    <input type="hidden" name="_next" value="https://vierapodhradska.sk/#/redirect"/>
+                    {/* onSubmit={() => {javascript:window.open('http://localhost:3000/redirect', '_blank')}} */}
+
                     <div className='flex gap-8 w-full max-xl:flex max-xl:flex-wrap max-lg:flex-nowrap max-md:flex-wrap'>
                         <input className='input focus:outline-none focus:border focus:border-maintext' type='text' name='Meno' placeholder='Vaše meno' required/>
                         <input className='input focus:outline-none focus:border focus:border-maintext' type='email' name='E-mail' placeholder='Váš email' required/>
                     </div>
-                    <input className='input focus:outline-none focus:border focus:border-maintext' type='text' name='Téma' placeholder='Názov témy / Téma' required/>
+                    <input className='input focus:outline-none focus:border focus:border-maintext' type='text' name='Téma' placeholder='Téma' required/>
                     <textarea className='textarea focus:outline-none focus:border focus:border-maintext' name='Správa' placeholder='Vaša správa' required></textarea>
                     <button className='button btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold mt-10'>Odoslať</button>
                 </form>
             </div>
-
-            {/* onsubmit="javascript:window.open('http://localhost:3000/redirect', '_blank');" */}
-            {/* onsubmit=navigate('/path', { replace:true }); */}
-            {/* onSubmit={function Redirection() {return <Navigate to="/redirect" target="_blank"/>}} */}
-            {/* onSubmit={function Redirection () {navigate("/redirect")}} */}
 
             <div className=''>
                 <img alt='' className='absolute top-60 -left-40 w-2/3 select-none drag-none z-0 opacity-90' draggable="false" src={WuLogo} />

@@ -29,8 +29,8 @@ const Certificates = () => {
                 {certs.map( (cert, index) => {
                     const { img, name, description } = cert;
                     return (
-                        <div className='group bg-primary flex flex-col gap-5 border shadow-md hover:shadow-accent-hover duration-1000 p-10 z-10 min-h-[40rem] max-lg:items-center overflow-hidden' key={index}>
-                            <img alt='' className='max-h-lg max-w-lg object-cov select-none' src={img} />
+                        <div className='group bg-primary flex flex-col gap-5 border shadow-md hover:shadow-accent-hover duration-1000 p-10 max-sm:p-4 max-sm:pt-20 z-10 min-h-[40rem] max-lg:items-center overflow-hidden' key={index}>
+                            <img alt='' className='max-h-lg max-w-lg max-lg:w-full object-cov select-none' src={img} />
                             <h1 className='text-xl text-quaternary group-hover:text-tertiary duration-500'>{name}</h1>
                             <p className='opacity-70'>{description}</p>
                         </div>

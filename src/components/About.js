@@ -25,7 +25,7 @@ const About = () => {
             <div className='flex max-lg:flex-col flex-row gap-24 max-xl:gap-8'>
                 
                 <div className='relative lg:flex-1 overflow-hidden max-xl:scale-75 max-lg:-mb-16 max-sm:-mb-6 z-10'>
-                    <HashLink to='#certificates'><p className='text-primary bg-accent-hover px-32 py-1 absolute text-center font-bold -rotate-45 top-7 -left-24 shadow-xl before:content-ribbonWLogo before:absolute before:z-0 before:opacity-50 before:scale-150 overflow-hidden before:left-20 hover:scale-110 duration-500 cursor-pointer hover:shadow-2xl'>Člen skupiny <br /> <span className='text-[#ffc800] opacity-90'>ELITA</span></p></HashLink>
+                    <HashLink to='#certificates'><p className='text-primary bg-accent-hover px-32 py-1 absolute text-center font-bold -rotate-45 top-7 -left-24 shadow-xl before:content-ribbonWLogo before:absolute before:z-0 before:opacity-30 before:scale-150 overflow-hidden before:left-16 hover:scale-110 duration-500 cursor-pointer hover:shadow-2xl opacity-90'>Člen skupiny <br /> <span className='text-[#ffc800] opacity-80'>ELITA</span></p></HashLink>
                     <img alt='' className='object-cover h-full w-[566px] max-lg:w-full md:mx-auto lg:mx-0 z-10' src={Image} />
                 </div>
                 
@@ -82,7 +82,7 @@ const About = () => {
                             </div>
                         </div>
 
-                        <p className='text-lg max-md:text-base leading-8 mt-5 text-maintext'>Vo finančnom sektore pôsobím už 15 rokov. Svoju prácu beriem ako poslanie a snažím sa  ju vykonávať profesionálne, odborne, najlepšie ako viem, neustále sa vzdelávať a pracovať na sebe. <br /> Nie vždy je to jednoduché, ale vďaka Wüstenrot poisťovni, Wüstenrot InHouse Broker, mojej riaditeľke Andrei Adamovičovej a hlavne vďaka vám, mojim úžasným klientom, sa mi darí žiť život podľa mojich predstáv.</p>
+                        <p className='text-lg max-md:text-base leading-8 mt-5 text-maintext'>Vo finančnom sektore pôsobím už 15 rokov. Svoju prácu beriem ako poslanie a snažím sa  ju vykonávať profesionálne, odborne, najlepšie ako viem, neustále sa vzdelávať a pracovať na sebe. <br /> Nie vždy je to jednoduché, ale vďaka Wüstenrot poisťovni, Wüstenrot InHouse Broker, mojej riaditeľke Andrei Adamovicovej a hlavne vďaka vám, mojim úžasným klientom, sa mi darí žiť život podľa mojich predstáv.</p>
                     </div>
                     <HashLink to="#contact" className='button btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold mt-10'>Kontakt</HashLink>
                 </div>

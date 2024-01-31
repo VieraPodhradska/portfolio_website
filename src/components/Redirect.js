@@ -21,7 +21,7 @@ const Redirect = () => {
             {/* <img alt='' className='' src='' alt='' /> */}
             <h1 className='text-2xl font-bold text-center text-quaternary group-hover:text-accent-hover duration-700 pb-2'>Ďakujem za vašu správu.</h1>
             <p className='text-center text-xl text-quaternary'>Najneskôr do 10 pracovných dní sa vám ozvem naspäť.</p>
-            <p className='opacity-70 mt-14 -mb-16 text-sm text-center'>Vrátiť sa na domovskú stránku: <a aria-label='link back to homepage' href='http://localhost:3000' className='underline'>http://localhost:3000</a></p>
+            <p className='opacity-70 mt-14 -mb-16 text-sm text-center'>Vrátiť sa na domovskú stránku: <a aria-label='link back to homepage' href='https://vierapodhradska.sk/' className='underline'>https://vierapodhradska.sk</a></p>
           </div>
   
         </div>
