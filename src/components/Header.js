@@ -62,7 +62,7 @@ const Header = () => {
             <Socials />
           </div>
           {/* nav mobile */}
-          <div className='xl:hidden absolute right-20 z-50'>
+          <div className='xl:hidden fixed right-20 z-50'>
             <NavMobile />
           </div>
 

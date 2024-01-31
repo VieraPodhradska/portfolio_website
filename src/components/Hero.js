@@ -36,7 +36,7 @@ const Hero = () => {
                     <HashLink to="#contact" className='button btn btn-md bg-quaternary hover:bg-accent-hover md:btn-lg transition-all p-8 px-14 font-bold md:mb-4'>Kontakt</HashLink>
                 </div>
                 {/* right side */}
-                <div className='max-xl:hidden flex lg:flex-1 justify-end items-end h-full'>
+                <div className='max-xl:hidden flex lg:flex-1 justify-end items-end h-full -mb-12'>
                     <img alt='' className='-mb-28 select-none h-[95%] w-[85%] z-10 ' src={ProfilePhoto} draggable='false' />
                 </div>
 
