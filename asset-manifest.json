@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e078588d.css",
-    "main.js": "/static/js/main.9e5f9992.js",
+    "main.js": "/static/js/main.ae2a3f49.js",
     "static/media/hero0_cropped.png": "/static/media/hero0_cropped.cf22764f567763047162.png",
     "static/media/about.png": "/static/media/about.b13989785efa2543d1e2.png",
     "static/media/cert3.jpg": "/static/media/cert3.9685fdfa2729e31f582b.jpg",
@@ -26,10 +26,10 @@
     "static/media/wuestenrot_object_grey_reverted.svg": "/static/media/wuestenrot_object_grey_reverted.708ead6d9e496508357f0e942d43d8d1.svg",
     "static/media/wuestenrot_object_dark_red_reverted.svg": "/static/media/wuestenrot_object_dark_red_reverted.01d052903129bea8ea76588350d566b7.svg",
     "main.e078588d.css.map": "/static/css/main.e078588d.css.map",
-    "main.9e5f9992.js.map": "/static/js/main.9e5f9992.js.map"
+    "main.ae2a3f49.js.map": "/static/js/main.ae2a3f49.js.map"
   },
   "entrypoints": [
     "static/css/main.e078588d.css",
-    "static/js/main.9e5f9992.js"
+    "static/js/main.ae2a3f49.js"
   ]
 }
