@@ -42,7 +42,7 @@ const Hero = () => {
 
                 <div className='xl:hidden flex lg:flex-1 justify-end items-end h-full max-lg:order-1 max-lg:justify-center max-lg:items-center max-xl:items-center max-lg:my-36 max-sm:my-20 max-sm:mb-40 relative'>
                     <div className='border-2 border-tertiary before:absolute before:border before:border-accent-hover before:top-0 before:bottom-0 before:left-0 before:right-0 before:rounded-full before:z-0 rounded-full h-72 w-72 max-sm:h-60 max-sm:w-60 max-xl:h-96 max-xl:w-96 absolute overflow-hidden flex justify-center'>
-                        <img alt='' className='-mb-28 select-none h-full w-[75%] z-10' src={ProfilePhoto} draggable='false' />
+                        <img alt='' className='-mb-28 select-none h-full w-[75%] z-0' src={ProfilePhoto} draggable='false' />
                     </div>
                 </div>
 
