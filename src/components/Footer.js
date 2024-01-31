@@ -38,7 +38,7 @@ const Footer = () => {
 
                 {/* logo */}
                 <div className='max-md:order-1 z-10'>
-                    <a aria-label='homepage logo' href='#home' className='flex max-md:flex-col'>
+                    <a aria-label='homepage logo' href='/' className='flex max-md:flex-col'>
                         <p className='text-quaternary text-2xl flex items-center'>Viera Podhradská</p>
                         <p className='text-quaternary px-5 flex items-center text-2xl max-md:hidden'>|</p>
                         <img alt='' className='select-none' src={LogoRed} />

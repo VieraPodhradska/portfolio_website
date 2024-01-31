@@ -48,7 +48,7 @@ const Header = () => {
           </div>
 
           {/* logo */}
-          <a aria-label='homepage logo' href='#home' className='flex max-sm:flex-col'>
+          <a aria-label='homepage logo' href='/' className='flex max-sm:flex-col'>
             <p className={`${bg ? 'text-primary' : 'text-quaternary'} text-2xl flex items-center transition-all duration-300 max-sm:text-xl max-sm:-mb-2`}>Viera Podhradská</p>
             <p className={`${bg ? 'text-primary' : 'text-quaternary'} px-5 flex items-center text-2xl transition-all duration-300 max-sm:hidden`}>|</p>
             <img alt='' className='transition-all duration-300 select-none max-sm:scale-75 max-sm:-mb-2' src={source} />
