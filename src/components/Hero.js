@@ -16,7 +16,7 @@ import ProfilePhoto from '../assets/img/hero0_cropped.png'
 
 const Hero = () => {
   return (
-    <section id='home' className='xl:h-[86vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden relative'>
+    <section id='home' className='xl:h-full flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden relative'>
         <div className='container mx-auto w-full'>
 
             {/* <div className=''>
